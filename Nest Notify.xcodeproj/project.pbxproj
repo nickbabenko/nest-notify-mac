@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05699E19253A3A8A00823198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E18253A3A8A00823198 /* AppDelegate.swift */; };
+		05699E1B253A3A8A00823198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E1A253A3A8A00823198 /* ContentView.swift */; };
+		05699E1D253A3A8C00823198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05699E1C253A3A8C00823198 /* Assets.xcassets */; };
+		05699E20253A3A8C00823198 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05699E1F253A3A8C00823198 /* Preview Assets.xcassets */; };
+		05699E23253A3A8C00823198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05699E21253A3A8C00823198 /* Main.storyboard */; };
+		05699E2F253A3A8D00823198 /* Nest_NotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E2E253A3A8D00823198 /* Nest_NotifyTests.swift */; };
+		05699E3A253A3A8D00823198 /* Nest_NotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E39253A3A8D00823198 /* Nest_NotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05699E2B253A3A8D00823198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05699E0D253A3A8A00823198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05699E14253A3A8A00823198;
+			remoteInfo = "Nest Notify";
+		};
+		05699E36253A3A8D00823198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05699E0D253A3A8A00823198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05699E14253A3A8A00823198;
+			remoteInfo = "Nest Notify";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05699E15253A3A8A00823198 /* Nest Notify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nest Notify.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05699E18253A3A8A00823198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05699E1A253A3A8A00823198 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05699E1C253A3A8C00823198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05699E1F253A3A8C00823198 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05699E22253A3A8C00823198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05699E24253A3A8C00823198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05699E25253A3A8C00823198 /* Nest_Notify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nest_Notify.entitlements; sourceTree = "<group>"; };
+		05699E2A253A3A8D00823198 /* Nest NotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nest NotifyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05699E2E253A3A8D00823198 /* Nest_NotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest_NotifyTests.swift; sourceTree = "<group>"; };
+		05699E30253A3A8D00823198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05699E35253A3A8D00823198 /* Nest NotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nest NotifyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05699E39253A3A8D00823198 /* Nest_NotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest_NotifyUITests.swift; sourceTree = "<group>"; };
+		05699E3B253A3A8D00823198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05699E12253A3A8A00823198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E27253A3A8D00823198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E32253A3A8D00823198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05699E0C253A3A8A00823198 = {
+			isa = PBXGroup;
+			children = (
+				05699E17253A3A8A00823198 /* Nest Notify */,
+				05699E2D253A3A8D00823198 /* Nest NotifyTests */,
+				05699E38253A3A8D00823198 /* Nest NotifyUITests */,
+				05699E16253A3A8A00823198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05699E16253A3A8A00823198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05699E15253A3A8A00823198 /* Nest Notify.app */,
+				05699E2A253A3A8D00823198 /* Nest NotifyTests.xctest */,
+				05699E35253A3A8D00823198 /* Nest NotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05699E17253A3A8A00823198 /* Nest Notify */ = {
+			isa = PBXGroup;
+			children = (
+				05699E18253A3A8A00823198 /* AppDelegate.swift */,
+				05699E1A253A3A8A00823198 /* ContentView.swift */,
+				05699E1C253A3A8C00823198 /* Assets.xcassets */,
+				05699E21253A3A8C00823198 /* Main.storyboard */,
+				05699E24253A3A8C00823198 /* Info.plist */,
+				05699E25253A3A8C00823198 /* Nest_Notify.entitlements */,
+				05699E1E253A3A8C00823198 /* Preview Content */,
+			);
+			path = "Nest Notify";
+			sourceTree = "<group>";
+		};
+		05699E1E253A3A8C00823198 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05699E1F253A3A8C00823198 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05699E2D253A3A8D00823198 /* Nest NotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				05699E2E253A3A8D00823198 /* Nest_NotifyTests.swift */,
+				05699E30253A3A8D00823198 /* Info.plist */,
+			);
+			path = "Nest NotifyTests";
+			sourceTree = "<group>";
+		};
+		05699E38253A3A8D00823198 /* Nest NotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05699E39253A3A8D00823198 /* Nest_NotifyUITests.swift */,
+				05699E3B253A3A8D00823198 /* Info.plist */,
+			);
+			path = "Nest NotifyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05699E14253A3A8A00823198 /* Nest Notify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05699E3E253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest Notify" */;
+			buildPhases = (
+				05699E11253A3A8A00823198 /* Sources */,
+				05699E12253A3A8A00823198 /* Frameworks */,
+				05699E13253A3A8A00823198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nest Notify";
+			productName = "Nest Notify";
+			productReference = 05699E15253A3A8A00823198 /* Nest Notify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05699E29253A3A8D00823198 /* Nest NotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05699E41253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest NotifyTests" */;
+			buildPhases = (
+				05699E26253A3A8D00823198 /* Sources */,
+				05699E27253A3A8D00823198 /* Frameworks */,
+				05699E28253A3A8D00823198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05699E2C253A3A8D00823198 /* PBXTargetDependency */,
+			);
+			name = "Nest NotifyTests";
+			productName = "Nest NotifyTests";
+			productReference = 05699E2A253A3A8D00823198 /* Nest NotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05699E34253A3A8D00823198 /* Nest NotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05699E44253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest NotifyUITests" */;
+			buildPhases = (
+				05699E31253A3A8D00823198 /* Sources */,
+				05699E32253A3A8D00823198 /* Frameworks */,
+				05699E33253A3A8D00823198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05699E37253A3A8D00823198 /* PBXTargetDependency */,
+			);
+			name = "Nest NotifyUITests";
+			productName = "Nest NotifyUITests";
+			productReference = 05699E35253A3A8D00823198 /* Nest NotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05699E0D253A3A8A00823198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Nick Babenko";
+				TargetAttributes = {
+					05699E14253A3A8A00823198 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					05699E29253A3A8D00823198 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 05699E14253A3A8A00823198;
+					};
+					05699E34253A3A8D00823198 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 05699E14253A3A8A00823198;
+					};
+				};
+			};
+			buildConfigurationList = 05699E10253A3A8A00823198 /* Build configuration list for PBXProject "Nest Notify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05699E0C253A3A8A00823198;
+			productRefGroup = 05699E16253A3A8A00823198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05699E14253A3A8A00823198 /* Nest Notify */,
+				05699E29253A3A8D00823198 /* Nest NotifyTests */,
+				05699E34253A3A8D00823198 /* Nest NotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05699E13253A3A8A00823198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05699E23253A3A8C00823198 /* Main.storyboard in Resources */,
+				05699E20253A3A8C00823198 /* Preview Assets.xcassets in Resources */,
+				05699E1D253A3A8C00823198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E28253A3A8D00823198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E33253A3A8D00823198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05699E11253A3A8A00823198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05699E1B253A3A8A00823198 /* ContentView.swift in Sources */,
+				05699E19253A3A8A00823198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E26253A3A8D00823198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05699E2F253A3A8D00823198 /* Nest_NotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05699E31253A3A8D00823198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05699E3A253A3A8D00823198 /* Nest_NotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05699E2C253A3A8D00823198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05699E14253A3A8A00823198 /* Nest Notify */;
+			targetProxy = 05699E2B253A3A8D00823198 /* PBXContainerItemProxy */;
+		};
+		05699E37253A3A8D00823198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05699E14253A3A8A00823198 /* Nest Notify */;
+			targetProxy = 05699E36253A3A8D00823198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05699E21253A3A8C00823198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05699E22253A3A8C00823198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05699E3C253A3A8D00823198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05699E3D253A3A8D00823198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.16;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05699E3F253A3A8D00823198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nest Notify/Nest_Notify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Nest Notify/Preview Content\"";
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Nest Notify/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-Notify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		05699E40253A3A8D00823198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Nest Notify/Nest_Notify.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Nest Notify/Preview Content\"";
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Nest Notify/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-Notify";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		05699E42253A3A8D00823198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				INFOPLIST_FILE = "Nest NotifyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nest Notify.app/Contents/MacOS/Nest Notify";
+			};
+			name = Debug;
+		};
+		05699E43253A3A8D00823198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				INFOPLIST_FILE = "Nest NotifyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nest Notify.app/Contents/MacOS/Nest Notify";
+			};
+			name = Release;
+		};
+		05699E45253A3A8D00823198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				INFOPLIST_FILE = "Nest NotifyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nest Notify";
+			};
+			name = Debug;
+		};
+		05699E46253A3A8D00823198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KHG7GYT7D2;
+				INFOPLIST_FILE = "Nest NotifyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nest Notify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05699E10253A3A8A00823198 /* Build configuration list for PBXProject "Nest Notify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05699E3C253A3A8D00823198 /* Debug */,
+				05699E3D253A3A8D00823198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05699E3E253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest Notify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05699E3F253A3A8D00823198 /* Debug */,
+				05699E40253A3A8D00823198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05699E41253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest NotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05699E42253A3A8D00823198 /* Debug */,
+				05699E43253A3A8D00823198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05699E44253A3A8D00823198 /* Build configuration list for PBXNativeTarget "Nest NotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05699E45253A3A8D00823198 /* Debug */,
+				05699E46253A3A8D00823198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05699E0D253A3A8A00823198 /* Project object */;
+}
