@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054848EA253B0D54003E670B /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 054848E9253B0D54003E670B /* CocoaMQTT */; };
 		05699E19253A3A8A00823198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E18253A3A8A00823198 /* AppDelegate.swift */; };
 		05699E1B253A3A8A00823198 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E1A253A3A8A00823198 /* ContentView.swift */; };
 		05699E1D253A3A8C00823198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05699E1C253A3A8C00823198 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		05699E23253A3A8C00823198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05699E21253A3A8C00823198 /* Main.storyboard */; };
 		05699E2F253A3A8D00823198 /* Nest_NotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E2E253A3A8D00823198 /* Nest_NotifyTests.swift */; };
 		05699E3A253A3A8D00823198 /* Nest_NotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E39253A3A8D00823198 /* Nest_NotifyUITests.swift */; };
+		05699E51253A3D0500823198 /* MessageListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E50253A3D0500823198 /* MessageListener.swift */; };
+		05699E53253A447B00823198 /* NotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05699E52253A447B00823198 /* NotificationSender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,8 @@
 		05699E35253A3A8D00823198 /* Nest NotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nest NotifyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05699E39253A3A8D00823198 /* Nest_NotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nest_NotifyUITests.swift; sourceTree = "<group>"; };
 		05699E3B253A3A8D00823198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05699E50253A3D0500823198 /* MessageListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListener.swift; sourceTree = "<group>"; };
+		05699E52253A447B00823198 /* NotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				054848EA253B0D54003E670B /* CocoaMQTT in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +81,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054848CB253A4EC5003E670B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		05699E0C253A3A8A00823198 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +95,7 @@
 				05699E2D253A3A8D00823198 /* Nest NotifyTests */,
 				05699E38253A3A8D00823198 /* Nest NotifyUITests */,
 				05699E16253A3A8A00823198 /* Products */,
+				054848CB253A4EC5003E670B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +119,8 @@
 				05699E24253A3A8C00823198 /* Info.plist */,
 				05699E25253A3A8C00823198 /* Nest_Notify.entitlements */,
 				05699E1E253A3A8C00823198 /* Preview Content */,
+				05699E50253A3D0500823198 /* MessageListener.swift */,
+				05699E52253A447B00823198 /* NotificationSender.swift */,
 			);
 			path = "Nest Notify";
 			sourceTree = "<group>";
@@ -151,6 +167,9 @@
 			dependencies = (
 			);
 			name = "Nest Notify";
+			packageProductDependencies = (
+				054848E9253B0D54003E670B /* CocoaMQTT */,
+			);
 			productName = "Nest Notify";
 			productReference = 05699E15253A3A8A00823198 /* Nest Notify.app */;
 			productType = "com.apple.product-type.application";
@@ -198,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Nick Babenko";
 				TargetAttributes = {
 					05699E14253A3A8A00823198 = {
@@ -223,6 +242,9 @@
 				Base,
 			);
 			mainGroup = 05699E0C253A3A8A00823198;
+			packageReferences = (
+				054848E8253B0D54003E670B /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
 			productRefGroup = 05699E16253A3A8A00823198 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05699E53253A447B00823198 /* NotificationSender.swift in Sources */,
 				05699E1B253A3A8A00823198 /* ContentView.swift in Sources */,
 				05699E19253A3A8A00823198 /* AppDelegate.swift in Sources */,
+				05699E51253A3D0500823198 /* MessageListener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +364,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -400,6 +425,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -432,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Nest Notify/Nest_Notify.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Nest Notify/Preview Content\"";
@@ -455,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Nest Notify/Nest_Notify.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Nest Notify/Preview Content\"";
@@ -530,6 +558,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -550,6 +579,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nickbabenko.Nest-NotifyUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -597,6 +627,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		054848E8253B0D54003E670B /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		054848E9253B0D54003E670B /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 054848E8253B0D54003E670B /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 05699E0D253A3A8A00823198 /* Project object */;
 }
