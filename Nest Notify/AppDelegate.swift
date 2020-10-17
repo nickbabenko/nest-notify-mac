@@ -37,8 +37,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(named: "nest_logo")
             button.action = #selector(togglePopover(_:))
         }
-        
-        //scheduleTokenUpdate()
     }
     
     @objc func togglePopover(_ sender: AnyObject?) {
@@ -53,17 +51,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
-    }
-    
-    private func scheduleTokenUpdate() {
-        let activity = NSBackgroundActivityScheduler(identifier: "com.nickbabenko.Nest-Notify.tokenUpdate")
-        activity.repeats = true
-        activity.tolerance = 60 * 60
-        activity.schedule() { (completion: @escaping NSBackgroundActivityScheduler.CompletionHandler) in
-            TokenManager.shared.update {_ in
-                completion(NSBackgroundActivityScheduler.Result.finished)
-            }
-        }
     }
 
 }
